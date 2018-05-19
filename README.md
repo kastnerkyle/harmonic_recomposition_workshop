@@ -1,1 +1,1 @@
-# harmonic_recomposition_workshop
+# harmonic_recomposition_workshopRecent changes to chrome have made listening to these samples in browser difficult. Cloning this repository seems to be the best way. 
