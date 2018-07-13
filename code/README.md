@@ -8,10 +8,15 @@ However, this is NOT a user facing library and no support of any kind will be av
 Required library dependencies for sampling
 ------------------------------------
 numpy
+
 tensorflow
+
 matplotlib
+
 scipy
-music21 (v .4)
+
+music21 (v .4 or .3)
+
 pretty-midi
 
 
