@@ -1,3 +1,13 @@
+NOTE: FOR NOW ONLY SAMPLING FROM THE PRETRAINED MODELS IS SUPPORTED
+-------------------------------------------------------------------
+If you are interested in seeing the layer implementations right away, you can explore lib/ , which is a copy of https://github.com/kastnerkyle/tfbldr/tree/ea945ec8e3c4a797782da256c5c887713288032f
+
+However, this is NOT a user facing library and no support of any kind will be availble. Feel free to copy, hack, and use in your own work though!
+
+
+Sampling Instructions
+---------------------
+
 To get the pretrained models, we must first combine the tar.gz.part\* archives (split due to Github file limits), so first run
 
 cat models.tar.gz.parta\* >models.tar.gz

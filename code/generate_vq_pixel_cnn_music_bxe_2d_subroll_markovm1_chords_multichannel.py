@@ -1,10 +1,9 @@
 import argparse
-import tensorflow as tf
 import numpy as np
-from tfbldr.datasets import quantized_imlike_to_image_array
-from tfbldr.datasets import save_image_array
-from tfbldr.datasets import notes_to_midi
-from tfbldr.datasets import midi_to_notes
+from lib.datasets import quantized_imlike_to_image_array
+from lib.datasets import save_image_array
+from lib.datasets import notes_to_midi
+from lib.datasets import midi_to_notes
 from collections import namedtuple
 import sys
 import matplotlib
@@ -15,6 +14,7 @@ from tfbldr.datasets import quantized_to_pretty_midi
 import os
 
 from data_utils import dump_subroll_samples
+import tensorflow as tf
 
 parser = argparse.ArgumentParser()
 parser.add_argument('pixelcnn_model', nargs=1, default=None)
