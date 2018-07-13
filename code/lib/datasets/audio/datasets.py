@@ -3,10 +3,6 @@ from .audio_tools import linear_to_mel_weight_matrix
 from .audio_tools import stft
 from .audio_tools import iterate_invert_spectrogram
 from .audio_tools import soundsc
-from ..text.cleaning import text_to_sequence
-from ..text.cleaning import sequence_to_text
-from ..text.cleaning import cleaners
-from ..text.cleaning import get_vocabulary_size
 
 from ...core import get_logger
 

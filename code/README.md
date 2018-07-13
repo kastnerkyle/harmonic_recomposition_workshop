@@ -11,11 +11,7 @@ numpy
 tensorflow
 matplotlib
 scipy
-
-
-Optional dependencies if trying to generate new subrolls (vq\_vae\_encoded\_music\_2d\_subroll\_multichannel.npz)
---------
-music21
+music21 (v .4)
 pretty-midi
 
 

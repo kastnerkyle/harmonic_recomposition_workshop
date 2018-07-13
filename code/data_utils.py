@@ -1,7 +1,7 @@
-from tfbldr.datasets import quantized_imlike_to_image_array
-from tfbldr.datasets import save_image_array
-from tfbldr.datasets import quantized_to_pretty_midi
-from tfbldr.datasets import midi_to_notes
+from lib.datasets import quantized_imlike_to_image_array
+from lib.datasets import save_image_array
+from lib.datasets import quantized_to_pretty_midi
+from lib.datasets import midi_to_notes
 import numpy as np
 from collections import Counter
 import os

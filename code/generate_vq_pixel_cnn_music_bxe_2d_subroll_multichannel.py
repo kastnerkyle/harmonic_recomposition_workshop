@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import copy
-from tfbldr.datasets import quantized_to_pretty_midi
+from lib.datasets import quantized_to_pretty_midi
 import os
 from data_utils import dump_subroll_samples
 
