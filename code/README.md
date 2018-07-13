@@ -38,7 +38,7 @@ or
 
 bash sample\_markov\_model.sh
 
-The resulting npz, mid, and png files will appear
+The resulting npz, mid, and png files will appear in a folder named samples/
 
 If you wish to hear the midi files, use any midi player such as timidity (sudo apt-get install timidity in Ubuntu)
 
