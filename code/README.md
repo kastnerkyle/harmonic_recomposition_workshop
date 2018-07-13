@@ -1,6 +1,8 @@
 NOTE: FOR NOW ONLY SAMPLING FROM THE PRETRAINED MODELS IS SUPPORTED
 -------------------------------------------------------------------
-If you are interested in seeing the layer implementations right away, you can explore lib/ , which is a copy of https://github.com/kastnerkyle/tfbldr/tree/ea945ec8e3c4a797782da256c5c887713288032f
+I still need to ensure the conversion from tfbldr to standalone lib is correct, but sampling pretrained models works now.
+
+If you are interested in seeing the model + layer implementations right away, see any of the vq\_\*.py files, then you can explore lib to see the equivalent layer defs, which is a copy of https://github.com/kastnerkyle/tfbldr/tree/ea945ec8e3c4a797782da256c5c887713288032f
 
 However, this is NOT a user facing library and no support of any kind will be availble. Feel free to copy, hack, and use in your own work though!
 
