@@ -4,12 +4,17 @@ If you are interested in seeing the layer implementations right away, you can ex
 
 However, this is NOT a user facing library and no support of any kind will be availble. Feel free to copy, hack, and use in your own work though!
 
-Additional library dependencies for sampling
+
+Required library dependencies for sampling
 ------------------------------------
 numpy
 tensorflow
 matplotlib
 scipy
+
+
+Optional dependencies if trying to generate new subrolls (vq\_vae\_encoded\_music\_2d\_subroll\_multichannel.npz)
+--------
 music21
 pretty-midi
 
