@@ -9,17 +9,17 @@ However, this is NOT a user facing library and no support of any kind will be av
 
 Required library dependencies for sampling
 ------------------------------------
-numpy
+numpy (any)
 
-tensorflow
+tensorflow (I used 1.4 and 1.5, but this should be flexible)
 
-matplotlib
+matplotlib (any)
 
-scipy
+scipy (any)
 
 music21 (v .4 or .3)
 
-pretty-midi
+pretty-midi (any)
 
 
 Sampling Instructions
